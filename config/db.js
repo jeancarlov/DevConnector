@@ -12,7 +12,8 @@ const connectDB = async()=>{
     // run mongoose.connect in a try and cat method to find connection errors, when using async awaita is better to use a try and catch
     try {
        await mongoose.connect (db,{
-           useNewUrlParser: true
+           useNewUrlParser: true,
+           useCreateIndex: true
        });
        console.log('mongoDB connect');
        
