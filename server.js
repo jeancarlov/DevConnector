@@ -7,6 +7,9 @@ const app = express();
 
 connectDB();
 
+// Init Middleware this should allow to get data from req.body, note that bodyParser is not needed since it comes with express
+app.use(express.json({ extended: false}));
+
 app.get('/',(req, res) => res.send (`API Running`));
 
 // Define Routes
