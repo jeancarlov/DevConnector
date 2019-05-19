@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://jean123:jean123@devconnector-ikmpp.mongodb.net/test?retryWrites=true"
+    "mongoURI": "mongodb+srv://jean123:jean123@devconnector-ikmpp.mongodb.net/test?retryWrites=true",
+    "jwtSecret": "mysecrecttoken"
 }
