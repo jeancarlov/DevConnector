@@ -6,6 +6,8 @@ import Login from './components/auth/Login';
 import Register from './components/auth/Register';
 import './App.css';
 
+
+
 const  App = () => 
   <Router>
     <Fragment>
